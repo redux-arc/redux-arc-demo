@@ -43,7 +43,7 @@ The project structure is the following:
 Do a git clone from the repo
 
 ```
-  git clone
+  git clone https://github.com/redux-arc/redux-arc-demo.git
 ```
 
 inside the project's folder, install the dependencies:
