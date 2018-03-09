@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "id": 3,
+      "name": "Master Yoda",
+      "phone": "420 456 458",
+      "email": "yoda@jedimasters.io"
+    },
+    {
+      "name": "My new Contact",
+      "email": "teste@teste.com",
+      "phone": "352757321",
+      "id": 4
+    }
+  ]
+}
