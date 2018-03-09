@@ -1,4 +1,3 @@
-import { middlewares } from 'redux-arc';
 import { creators } from '../actions';
 
 function reloadList(store) {
@@ -10,4 +9,4 @@ function reloadList(store) {
 
 reloadList.applyPoint = 'onResponse';
 
-middlewares.register('reloadList', reloadList);
+export default reloadList;

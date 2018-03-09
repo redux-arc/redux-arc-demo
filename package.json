@@ -10,7 +10,7 @@
     "react-redux": "^5.0.6",
     "react-scripts": "1.1.1",
     "redux": "^3.7.2",
-    "redux-arc": "^0.6.1"
+    "redux-arc": "0.7.0"
   },
   "scripts": {
     "start": "react-scripts start",

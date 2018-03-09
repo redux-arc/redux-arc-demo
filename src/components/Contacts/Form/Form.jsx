@@ -43,19 +43,17 @@ class ContactsForm extends Component {
     })
   };
 
-  onSubmit = (event) => {
+  onSubmit = async (event) => {
     event.preventDefault();
     const { values } = this.state;
     const { create, update, closeForm, list } = this.props;
 
-    const request =  values.id
+    await values.id
       ? update(values, { id: values.id })
       : create(values);
 
-    request.then(() => {
-      closeForm();
-      list();
-    })
+    closeForm();
+    list();
   };
 
   render() {

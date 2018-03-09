@@ -1,6 +1,6 @@
 import { createActions } from 'redux-arc';
 
-import './middlewares/reloadList';
+import reloadList from './middlewares/reloadList';
 
 /*
   In this file, you can define all actions that is in the scope
@@ -19,7 +19,7 @@ export const { types, creators } = createActions('contacts', {
   list: { url: '/contacts', method: 'get' },
   create: { url: '/contacts', method: 'post' },
   update: { url: '/contacts/:id', method: 'put' },
-  remove: { url: '/contacts/:id', method: 'delete', middlewares: ['reloadList'] },
+  remove: { url: '/contacts/:id', method: 'delete', middlewares: [reloadList] },
 
   /*** Simple FSA actions ***/
   openForm: null,
