@@ -15,8 +15,10 @@ The project structure is the following:
   │    ├─ List.jsx
   │    │ ├─ List.jsx
   │    │ └─ List.css
+  │    │
   │    ├─ middlewares
   │    │  └─ reloadList.js
+  │    │
   │    ├─ Contacts.js
   │    ├─ Contacts.css
   │    ├─ reducers.js

@@ -1,16 +1,16 @@
 {
   "contacts": [
     {
-      "id": 3,
+      "id": 1,
       "name": "Master Yoda",
       "phone": "420 456 458",
       "email": "yoda@jedimasters.io"
     },
     {
-      "name": "My new Contact",
-      "email": "teste@teste.com",
+      "name": "Luke",
+      "email": "luke@jedimasters.io",
       "phone": "352757321",
-      "id": 4
+      "id": 2
     }
   ]
 }
