@@ -5430,9 +5430,9 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^0.4.2"
 
-redux-arc@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/redux-arc/-/redux-arc-0.7.0.tgz#549b0f8c537270667dc58b607784db525eaa9e25"
+redux-arc@0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/redux-arc/-/redux-arc-0.7.3.tgz#073689beeada40797cb9e26b06b7cc1d4fb51576"
 
 redux@^3.7.2:
   version "3.7.2"
